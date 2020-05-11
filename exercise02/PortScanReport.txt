@@ -1,0 +1,122 @@
+------------------------------------------------------------------------
+Count:2 Event#3.1 2020-05-11 19:23:11
+ET SCAN Suspicious inbound to mySQL port 3306
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=28587 flags=0 offset=0 ttl=52 chksum=9577
+Protocol: 6 sport=59067 -> dport=3306
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=25841 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#3.2 2020-05-11 19:23:11
+ET SCAN Suspicious inbound to Oracle SQL port 1521
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=17413 flags=0 offset=0 ttl=41 chksum=23567
+Protocol: 6 sport=59067 -> dport=1521
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=27626 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#3.3 2020-05-11 19:23:11
+ET SCAN Suspicious inbound to PostgreSQL port 5432
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=1391 flags=0 offset=0 ttl=41 chksum=39589
+Protocol: 6 sport=59067 -> dport=5432
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=23715 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#3.4 2020-05-11 19:23:11
+ET SCAN Potential VNC Scan 5900-5920
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=43088 flags=0 offset=0 ttl=43 chksum=62915
+Protocol: 6 sport=59067 -> dport=5904
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=23243 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#3.5 2020-05-11 19:23:11
+ET SCAN Potential VNC Scan 5800-5820
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=51744 flags=0 offset=0 ttl=55 chksum=51187
+Protocol: 6 sport=59067 -> dport=5801
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=23346 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#3.6 2020-05-11 19:23:11
+ET SCAN Suspicious inbound to MSSQL port 1433
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=44 ID=61496 flags=0 offset=0 ttl=47 chksum=43483
+Protocol: 6 sport=59067 -> dport=1433
+
+Seq=3948306048 Ack=0 Off=6 Res=0 Flags=******S* Win=1024 urp=27714 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:2 Event#1.412 2020-05-11 19:23:12
+[OSSEC] sshd: insecure connection attempt (scan).
+192.168.56.1 -> 0.0.0.0
+IPVer=0 hlen=0 tos=0 dlen=0 ID=0 flags=0 offset=0 ttl=0 chksum=0
+Protocol: 0 Payload:
+4D 61 79 20 31 31 20 31 39 3A 32 33 3A 31 31 20 May 11 19:23:11 
+74 61 69 6C 6F 72 69 63 2D 56 69 72 74 75 61 6C tailoric-Virtual
+42 6F 78 20 73 73 68 64 5B 37 32 33 38 5D 3A 20 Box sshd[7238]: 
+44 69 64 20 6E 6F 74 20 72 65 63 65 69 76 65 20 Did not receive 
+69 64 65 6E 74 69 66 69 63 61 74 69 6F 6E 20 73 identification s
+74 72 69 6E 67 20 66 72 6F 6D 20 31 39 32 2E 31 tring from 192.1
+36 38 2E 35 36 2E 31 0A                         68.56.1.
+------------------------------------------------------------------------
+Count:46 Event#3.7 2020-05-11 19:23:28
+ET SCAN Potential SSH Scan OUTBOUND
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=60 ID=3323 flags=0 offset=0 ttl=37 chksum=38665
+Protocol: 6 sport=54207 -> dport=22
+
+Seq=2458093662 Ack=201062790 Off=10 Res=0 Flags=******S* Win=4 urp=25669 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:4 Event#3.8 2020-05-11 19:23:28
+ET SCAN Potential SSH Scan
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=60 ID=3323 flags=0 offset=0 ttl=37 chksum=38665
+Protocol: 6 sport=54207 -> dport=22
+
+Seq=2458093662 Ack=201062790 Off=10 Res=0 Flags=******S* Win=4 urp=25669 chksum=0
+Payload:
+None.
+------------------------------------------------------------------------
+Count:16 Event#3.9 2020-05-11 19:23:28
+ET SCAN NMAP OS Detection Probe
+192.168.56.1 -> 192.168.56.102
+IPVer=4 hlen=5 tos=0 dlen=328 ID=4162 flags=0 offset=0 ttl=64 chksum=30635
+Protocol: 17 sport=54241 -> dport=39565
+
+len=308 chksum=13301
+Payload:
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 CCCCCCCCCCCCCCCC
+43 43 43 43 43 43 43 43 43 43 43 43             CCCCCCCCCCCC
+
