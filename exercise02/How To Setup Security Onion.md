@@ -11,6 +11,15 @@ However one difference to the instructions of the video. Don't use a virtual net
 
 Another difference is that you want to have Security Onion to listen to your second ethernet connection instead of the first (in my case enp0s8 instead of enp0s3), basically make security onion listen to the HOST-ONLY connection instead of the NAT network. (IF the host only adapter is your first adapter then use that one instead of course)
 
+Here are the screenshots for choices that can be different from the video:
+
+(enp0s8 is the interface that is connected to the HOST-ONLY adapter)
+
+![](managementInterface.png)
+![](sniffingInterface.png)
+![](dhcp_setup.png)
+![](monitoredInterface.png)
+
 
 ## Prope with nmap
 After installing and doing the minimal setup you can start to run nmap for a prope. (Also maybe set a safe point so you don't have to this all again in case you mess up)
