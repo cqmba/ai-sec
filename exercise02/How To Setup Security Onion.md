@@ -9,7 +9,7 @@ Follow the Video for a minimal Set up: https://youtu.be/RAV17X9YJuY
 
 However one difference to the instructions of the video. Don't use a virtual network but a HOST-ONLY network for the second network adapter (only use a virtual network if you need a connection between two VMS)
 
-Another difference is that you want to have Security Onion to listen to your second ethernet connection instead of the first (in my case enp0s8 instead of enp0s3), basically make security onion listen to the HOST-ONLY connection instead of the NAT network. (IF the host only adapter is your first adapter then use that one instead of course)
+Another difference is that you want to have your second ethernet connection be the management interface instead of the first (in my case enp0s8 instead of enp0s3), basically make security onion listen to the HOST-ONLY connection instead of the NAT network. (IF the host only adapter is your first adapter then use that one instead of course)
 
 Here are the screenshots for choices that can be different from the video:
 
