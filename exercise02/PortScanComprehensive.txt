@@ -1,0 +1,189 @@
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.187 2020-05-14 14:50:23
+ET SCAN Potential SSH Scan OUTBOUND
+6 192.168.56.1:17698 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.188 2020-05-14 14:50:53
+ET SCAN Potential SSH Scan OUTBOUND
+6 192.168.56.1:17701 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.189 2020-05-14 14:51:23
+ET SCAN Potential SSH Scan OUTBOUND
+6 192.168.56.1:17702 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.190 2020-05-14 14:51:35
+ET SCAN Potential SSH Scan
+6 192.168.56.1:17702 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.191 2020-05-14 14:51:53
+ET SCAN Potential SSH Scan OUTBOUND
+6 192.168.56.1:17707 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.192 2020-05-14 14:52:23
+ET SCAN Potential SSH Scan OUTBOUND
+6 192.168.56.1:17708 -> 192.168.56.102:22
+------------------------------------------------------------------------
+Status:7 Count:1 Sensor:tailoric-virtualbox-ossec Event#1.533 2020-05-14 14:52:34
+[OSSEC] Listened ports status (netstat) changed (new port opened or closed).
+0 0.0.0.0: -> 0.0.0.0:
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.193 2020-05-14 14:57:09
+ET SCAN Suspicious inbound to mySQL port 3306
+6 192.168.56.1:53 -> 192.168.56.102:3306
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.194 2020-05-14 14:57:09
+ET SCAN Suspicious inbound to mySQL port 3306
+6 192.168.56.1:53 -> 192.168.56.102:3306
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.195 2020-05-14 14:57:12
+ET SCAN Potential VNC Scan 5900-5920
+6 192.168.56.1:53 -> 192.168.56.102:5910
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.196 2020-05-14 14:57:12
+ET SCAN Suspicious inbound to Oracle SQL port 1521
+6 192.168.56.1:53 -> 192.168.56.102:1521
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.197 2020-05-14 14:57:12
+ET SCAN Suspicious inbound to Oracle SQL port 1521
+6 192.168.56.1:53 -> 192.168.56.102:1521
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.198 2020-05-14 14:57:17
+ET SCAN Potential VNC Scan 5800-5820
+6 192.168.56.1:53 -> 192.168.56.102:5810
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.199 2020-05-14 14:57:21
+ET SCAN Suspicious inbound to MSSQL port 1433
+6 192.168.56.1:53 -> 192.168.56.102:1433
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.200 2020-05-14 14:57:21
+ET SCAN Suspicious inbound to MSSQL port 1433
+6 192.168.56.1:53 -> 192.168.56.102:1433
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.201 2020-05-14 14:57:21
+ET SCAN Suspicious inbound to PostgreSQL port 5432
+6 192.168.56.1:53 -> 192.168.56.102:5432
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.202 2020-05-14 14:57:21
+ET SCAN Suspicious inbound to PostgreSQL port 5432
+6 192.168.56.1:53 -> 192.168.56.102:5432
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.203 2020-05-14 14:57:35
+GPL RPC xdmcp info query
+17 192.168.56.1:53 -> 192.168.56.102:177
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.204 2020-05-14 14:57:35
+GPL RPC xdmcp info query
+17 192.168.56.1:53 -> 192.168.56.102:177
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.205 2020-05-14 14:57:51
+GPL DNS named version attempt
+17 192.168.56.1:56231 -> 192.168.56.102:53
+------------------------------------------------------------------------
+Status:1 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.206 2020-05-14 14:58:11
+ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Reserved Bit Set
+17 192.168.56.1:56231 -> 192.168.56.102:53
+------------------------------------------------------------------------
+Status:1 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.207 2020-05-14 14:58:11
+ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Opcode 8 through 15 set
+17 192.168.56.1:56231 -> 192.168.56.102:53
+------------------------------------------------------------------------
+Status:1 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.208 2020-05-14 14:58:43
+ET TFTP Outbound TFTP Read Request
+17 192.168.56.1:56234 -> 192.168.56.102:69
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.209 2020-05-14 14:59:28
+GPL SNMP public access udp
+17 192.168.56.1:61931 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.210 2020-05-14 14:59:28
+GPL RPC xdmcp info query
+17 192.168.56.1:61933 -> 192.168.56.102:177
+------------------------------------------------------------------------
+Status:7 Count:1 Sensor:tailoric-virtualbox-ossec Event#1.534 2020-05-14 15:03:35
+[OSSEC] Host-based anomaly detection event (rootcheck).
+0 0.0.0.0: -> 0.0.0.0:
+------------------------------------------------------------------------
+Status:1 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.211 2020-05-14 15:43:21
+ET P2P Vuze BT UDP Connection
+17 192.168.56.1:52365 -> 192.168.56.102:49152
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.212 2020-05-14 15:53:16
+ET SCAN Suspicious inbound to MSSQL port 1433
+6 192.168.56.1:1091 -> 192.168.56.102:1433
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.213 2020-05-14 15:53:17
+ET SCAN Suspicious inbound to MSSQL port 1433
+6 192.168.56.1:1091 -> 192.168.56.102:1433
+------------------------------------------------------------------------
+Status:1 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.214 2020-05-14 15:53:18
+ET P2P Vuze BT UDP Connection
+17 192.168.56.1:61399 -> 192.168.56.102:49162
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.215 2020-05-14 15:53:19
+GPL RPC xdmcp info query
+17 192.168.56.1:61402 -> 192.168.56.102:177
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.216 2020-05-14 15:53:19
+ET SCAN Suspicious inbound to MSSQL port 1433
+6 192.168.56.1:1091 -> 192.168.56.102:1433
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.217 2020-05-14 15:53:23
+GPL RPC portmap listing UDP 111
+17 192.168.56.1:1003 -> 192.168.56.102:111
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.218 2020-05-14 15:53:24
+GPL RPC portmap listing UDP 111
+17 192.168.56.1:283 -> 192.168.56.102:111
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.219 2020-05-14 15:53:25
+GPL RPC portmap listing UDP 111
+17 192.168.56.1:459 -> 192.168.56.102:111
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.220 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61408 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.221 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61409 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.222 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61410 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.223 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61411 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.224 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61412 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.225 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61413 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.226 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61414 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.227 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61415 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.228 2020-05-14 15:53:39
+GPL SNMP public access udp
+17 192.168.56.1:61417 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.229 2020-05-14 15:53:44
+GPL SNMP public access udp
+17 192.168.56.1:61410 -> 192.168.56.102:161
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.230 2020-05-14 15:56:30
+GPL DNS named version attempt
+17 192.168.56.1:61564 -> 192.168.56.102:53
+------------------------------------------------------------------------
+Status:2 Count:1 Sensor:tailoric-virtualbox-enp0s8-1 Event#3.231 2020-05-14 15:56:34
+GPL DNS named version attempt
+17 192.168.56.1:61564 -> 192.168.56.102:53
+
